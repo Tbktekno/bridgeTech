@@ -3,7 +3,7 @@ import { Menu, X, Rocket } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "../../utils/cn";
 import Button from "./Button";
-import Logo from "/logoBridgeTech.png";
+import Logo from "/logoBridgeTech.webp";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

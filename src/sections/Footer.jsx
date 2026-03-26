@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight, Mail, MapPin, Phone, Instagram, Linkedin, Twitter, Rocket, Facebook, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import Button from "../components/common/Button";
+import Logo from "/logoBridgeTech.webp"
 
 const Footer = () => {
    return (
@@ -34,12 +35,7 @@ const Footer = () => {
                {/* Brand Info */}
                <div className="lg:col-span-4 space-y-6">
                   <a href="#" className="flex items-center gap-2 group">
-                     <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg group-hover:bg-gold transition-colors duration-300">
-                        <Rocket className="w-5 h-5" />
-                     </div>
-                     <span className="text-2xl font-black tracking-tighter uppercase text-professional">
-                        Bridge <span className="text-primary group-hover:text-gold transition-colors">Tech</span>
-                     </span>
+                     <img src={Logo} alt="" className="w-20 h-12" />
                   </a>
                   <p className="text-professional/60 text-sm leading-relaxed max-w-sm italic">
                      "From Idea to Real-World Solutions". Kami adalah mitra teknologi Anda dalam membangun solusi software, hardware, dan IoT yang terintegrasi dan berkelas dunia.
