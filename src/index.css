@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #2563EB;
+    --professional: #0F172A;
+    --gold: #F59E0B;
+    --white: #FFFFFF;
+  }
+
+  body {
+    @apply bg-white text-professional overflow-x-hidden antialiased selection:bg-primary selection:text-white;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-professional;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-4 md:px-8 xl:px-16 max-w-7xl mx-auto;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark shadow-md hover:shadow-lg;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white;
+  }
+
+  .btn-gold {
+    @apply bg-gold text-white hover:bg-gold-dark shadow-md hover:shadow-lg;
+  }
+
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20;
+  }
+
+  .glass-dark {
+    @apply bg-professional/80 backdrop-blur-md border border-white/10;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-gold;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full hover:bg-primary/50;
+}
