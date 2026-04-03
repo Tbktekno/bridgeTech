@@ -7,7 +7,7 @@ import HeroParticles from "../components/animations/HeroParticles";
 const Hero = () => {
   return (
     <section
-      className="relative min-h-screen flex items-end justify-center pb-10 pt-28 lg:pt-20 overflow-hidden text-center bg-slate-950"
+      className="relative min-h-screen flex items-end justify-center pb-24 lg:pb-10 pt-28 lg:pt-20 overflow-hidden text-center bg-slate-950"
     >
       {/* Texture Background Image (Subtle) */}
       <div

@@ -29,17 +29,16 @@ const Portfolio = () => {
     { src: Img7, category: "Deployment", title: "Field Installation" },
     { src: Img8, category: "Custom PCB", title: "PCB Architecture" },
     { src: Img9, category: "Network", title: "Connectivity Module" },
-    { src: Img10, category: "IoT Solution", title: "Edge Computing" },
     { src: Img11, category: "Hardware", title: "Embedded Systems" },
     { src: Img12, category: "Innovation", title: "Tech Fusion" },
     { src: Img13, category: "Final Build", title: "Product Excellence" },
   ];
 
   return (
-    <Section 
-      id="portfolio" 
+    <Section
+      id="portfolio"
       bg="slate"
-      subtitle="Dokumentasi Proyek" 
+      subtitle="Dokumentasi Proyek"
       title="Galeri Inovasi Bridge Tech"
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -53,9 +52,9 @@ const Portfolio = () => {
             className="group relative bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 aspect-square"
           >
             {/* Image */}
-            <img 
-              src={item.src} 
-              alt={item.title} 
+            <img
+              src={item.src}
+              alt={item.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
             />
 
@@ -68,7 +67,7 @@ const Portfolio = () => {
                 <h4 className="text-white font-black text-lg">
                   {item.title}
                 </h4>
-                
+
                 <div className="flex gap-3 mt-4">
                   <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-gold transition-colors cursor-pointer">
                     <Eye className="w-4 h-4" />
@@ -89,7 +88,7 @@ const Portfolio = () => {
       </div>
 
       {/* Stats/Highlight */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         className="mt-20 p-10 bg-professional rounded-[40px] text-center relative overflow-hidden"
