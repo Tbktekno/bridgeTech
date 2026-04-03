@@ -16,15 +16,15 @@ const Hero = () => {
           backgroundImage: 'url("/background-bridge-tech.webp")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          mixBlendMode: 'overlay'
+
         }}
       />
 
       {/* Dark overlay for contrast */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-10" />
+      {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-10" /> */}
 
       {/* Three.js Particle & Chip Animation */}
-      <HeroParticles />
+      {/* <HeroParticles /> */}
 
       <div className="container mx-auto px-4 md:px-8 xl:px-16 max-w-7xl relative z-30">
         <div className="flex flex-col justify-end items-center gap-6">
