@@ -22,7 +22,7 @@ const Navbar = () => {
     { name: "Tentang Kami", href: "#about" },
     { name: "Layanan", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "Visi & Misi", href: "#vision" },
+    { name: "Feedback", href: "#feedback" },
     { name: "Kontak", href: "#contact" },
   ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav
       className={cn(
         "fixed top-0 left-0 w-full z-50 transition-all duration-300 py-3 px-4 md:px-8 xl:px-16",
-        scrolled ? "glass shadow-md py-2" : "bg-transparent border-b-2 border-b-blue-400"
+        scrolled ? "glass shadow-md py-2" : "bg-white border-b-2 border-b-blue-400"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">

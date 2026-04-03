@@ -4,8 +4,8 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Services from './sections/Services'
 import Portfolio from './sections/Portfolio'
-import WhyChooseUs from './sections/WhyChooseUs'
-import VisionMission from './sections/VisionMission'
+import Projects from './sections/WhyChooseUs'
+import Feedback from './sections/VisionMission'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 
@@ -25,8 +25,8 @@ function App() {
         <About />
         <Services />
         <Portfolio />
-        <WhyChooseUs />
-        {/* <VisionMission /> */}
+        <Projects />
+        <Feedback />
         <Contact />
       </main>
 

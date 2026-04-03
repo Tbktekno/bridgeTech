@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nama": "Budi Santoso",
+    "phone": "08123456789",
+    "pekerjaan": "Software Engineer",
+    "pesan": "Pelayanan sangat memuaskan, solusi IoT yang diberikan sangat membantu operasional tim kami."
+  },
+  {
+    "id": 2,
+    "nama": "Ani Wijaya",
+    "phone": "08765432100",
+    "pekerjaan": "Project Manager",
+    "pesan": "Tim Bridge Tech sangat profesional dalam menangani integrasi hardware yang kompleks."
+  },
+  {
+    "id": 3,
+    "nama": "Dedi Kurniawan",
+    "phone": "08112233445",
+    "pekerjaan": "Entrepreneur",
+    "pesan": "Inovasi yang mereka tawarkan benar-benar memberikan nilai tambah bagi bisnis ritel saya."
+  },
+  {
+    "id": 4,
+    "nama": "Sari Indah",
+    "phone": "08998877665",
+    "pekerjaan": "Tech Enthusiast",
+    "pesan": "Sangat terkesan dengan kecepatan pengerjaan sistem monitoring gudang otomatis."
+  }
+]
