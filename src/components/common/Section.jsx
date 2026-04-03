@@ -1,10 +1,10 @@
 import React from "react";
 import { cn } from "../../utils/cn";
 
-const Section = ({ 
-  children, 
-  id, 
-  className, 
+const Section = ({
+  children,
+  id,
+  className,
   bg = "white",
   title,
   subtitle,
@@ -18,13 +18,13 @@ const Section = ({
   };
 
   return (
-    <section 
-      id={id} 
+    <section
+      id={id}
       className={cn("py-16 md:py-24 overflow-hidden", bgClasses[bg], className)}
     >
       <div className="container mx-auto px-4 md:px-8 xl:px-16 max-w-7xl">
         {(title || subtitle) && (
-          <div className={cn("mb-12", centerTitle ? "text-center" : "text-left")}>
+          <div className={cn("mb-4 lg:mb-12", centerTitle ? "text-center" : "text-left")}>
             {subtitle && (
               <span className="inline-block text-primary font-bold tracking-widest uppercase text-xs mb-2">
                 {subtitle}
@@ -39,9 +39,9 @@ const Section = ({
               </h2>
             )}
             <div className={cn(
-                "w-12 h-1 bg-gold rounded-full",
-                centerTitle ? "mx-auto" : "mr-auto"
-              )} 
+              "w-12 h-1 bg-gold rounded-full",
+              centerTitle ? "mx-auto" : "mr-auto"
+            )}
             />
           </div>
         )}
